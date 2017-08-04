@@ -1,0 +1,52 @@
+function cadenaAObjeto(miCadena){
+	var arrayDeCaracteres = miCadena.split("");
+	var resul = {};
+
+	for (var i = 0 ; i < arrayDeCaracteres.length ; i++) {
+	 	//resul = resul + arrayDeCaracteres[;
+
+	 	var letra = arrayDeCaracteres[i];
+
+	 	if(resul[letra]){
+	 		resul[letra] = resul[letra] + 1;
+	 	}else{
+	 		resul[letra] = 1;
+	 	}
+	}
+
+	return resul;
+}
+// Funcion en duro
+
+function cadenaAObjeto(miCadena){
+	var arrayDeCaracteres = miCadena.split("");
+	var resul = {
+		a: 0,
+		b: 0,
+		c: 0,
+		d: 0
+		// ...
+	};
+
+	for (var i = 0 ; i < arrayDeCaracteres.length ; i++) {
+	 	//resul = resul + arrayDeCaracteres[;
+
+	 	if(arrayDeCaracteres[i] =="a"){
+			resul.a = resul.a + 1;
+	 	}else{
+	 		if(arrayDeCaracteres[i] == "b"){
+	 			resul.b = resul.b +1;
+	 		}else{
+	 			if(arrayDeCaracteres[i] == "c"){
+	 				resul.c = resul.c +1;
+	 			}else{
+	 				if(arrayDeCaracteres[i] =="d"){
+	 					resul.d = resul.d +1;
+	 				}
+	 			}
+	 		}
+	 	}
+	}
+
+	return resul;
+}
