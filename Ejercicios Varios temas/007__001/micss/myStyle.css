@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Circular,Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #222326;
+	background-color: #fff;
+	font-weight: 400
+	margin: 0px;
+}
+
+nav{
+	background: rgba(0,0,0,0.9);
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.logo_spotify{
+	width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-image: url("../imag/logo.png");
+    background-size: 100%;
+}
+.menu ul{
+	width: 100%;
+	height: inherit;
+	color: white;
+}
+
+.menu ul li{
+	padding-top: 15px;
+	width: 15%;
+	height: inherit;
+	display: inline-block;
+	list-style-type: none;
+	text-align: right;
+}
+
+
+.menu ul li a{
+	width: inherit;
+	height: inherit;
+	text-decoration: none;
+	color: white;
+}
+
+.menu ul li a:hover{
+	color: #1db954;
+	transition: .2s all;
+}
+
+.separador{
+	padding-left: 30px;
+}
+
+.fondo{
+	   background-color: #f037a5;
+    background: linear-gradient(#f037a5 -50%,#fae62d 120%);
+}
+
+.tamaño{
+	height: 500px;
+	text-align: center;
+}
+
+.tamañito{
+	height: 350px;
+	color: white;
+	font-weight: bold;
+}
+
+.tamañito h1{
+	padding-top: 150px;
+	font-size: 60px;
+}
+
+.boton1 , .boton2{
+	margin-top: 20px;
+	width: 300px;
+	height: 40px;
+	border-radius: 500px;
+	letter-spacing: 2px;
+	font-size: 14px;
+	line-height: 1;
+    border-radius: 500px;
+    min-width: 160px;
+    white-space: normal;
+	font-weight: bold;
+}
+
+.boton1{
+	color: #fff;
+    background-color: #1db954;
+    border-width: 0;
+}
+
+.boton1:hover{
+	color: #fff;
+	background-color: #1ed760;   
+	transition: .5s all;
+	cursor: pointer;
+}
+
+.boton2{
+	color: #fff;
+	box-shadow: 0 0 0 2px #fff inset;
+	background-color: transparent;
+}
+
+.boton2:hover{
+	text-align: center;
+	color: black;
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid transparent;
+	transition: .5s all;
+	
+}

@@ -1,0 +1,25 @@
+nav{
+	background-color: skyblue;
+}
+nav h1{
+	padding: 30px;
+	font-weight: bold;
+	color: white;
+}
+.izq{
+	background-color: skyblue;
+	position: relative;
+}
+
+.der{
+	background-color: white;
+	position: relative;
+}
+
+.izq , .der{
+	box-sizing: border-box;
+}
+
+.container h3{
+	font-weight: bold;
+}
